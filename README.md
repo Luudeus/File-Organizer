@@ -43,4 +43,4 @@ If needed, feel free to change the contents of `file_types.json`
 To execute the script, it can be run from the command line with the option to specify a target directory. If no directory is given, it organizes files in the directory where the script resides.
 
 ## Usage
-$ python project.py ['directory_path']
+`$ python project.py ['directory_path']`
