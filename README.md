@@ -1,6 +1,7 @@
 # File Organizer
 
 This script organizes files in a directory based on their file extensions using a predefined mapping from a JSON file.
+If needed, feel free to change the contents of `file_types.json`
 #### Video Demo: https://youtu.be/qJYWaK0bnv4
 
 ## Overview
