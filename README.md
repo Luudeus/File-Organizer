@@ -17,6 +17,15 @@
 ### Prerequisites
 
 - Ensure Python is installed on your system. Download Python from [python.org](https://www.python.org/downloads/).
+- **Testing Requirements**: 
+  - Install `pytest` to execute the test suite. It can be installed via pip:
+    ```bash
+    pip install pytest
+    ```
+  - Alternatively, you can install all necessary dependencies including those for testing from the `requirements.txt` file:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ### Setup
 
@@ -29,20 +38,8 @@
 
 - **Determining Target Directory**: `get_directory()`
    - Accepts a command-line argument for specifying the target directory, defaulting to the current directory if not provided.
-
-- **Loading Extension-Folder Mappings**: `load_extension_mapping(json_file)`
-   - Retrieves file extension-to-folder mapping rules from a specified JSON file.
-
-- **File Discovery**: `get_files_in_directory(directory)`
-   - Enumerates and prepares files in the target directory for organization.
-
-- **Organizing Files**: `organize_files(files, directory, extension_mapping)`
-   - Categorizes and relocates files into specified folders based on their extensions, and dynamically creates destination folders if necessary.
-
-### Auxiliary Functions
-
-- **Directory and File Operations**: 
-   - Additional functions such as `create_folder_if_absent()` and `move_file_to_folder()` support directory and file manipulations, enhancing organization flow.
+  
+  - ... (Rest of your content remains unchanged) ...
 
 ## 🧪 Testing
 
