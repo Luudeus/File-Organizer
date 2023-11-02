@@ -93,4 +93,7 @@ def test_move_file_to_folder():
     assert not os.path.isfile(os.path.join(source_folder, test_file_name))
     assert os.path.isfile(os.path.join(destination_folder, test_file_name))
 
-    # Remove test artifacts after the test
+    # Clean up: Remove test artifacts after the test.
+    os.remove(os.path.join(destination_folder, test_file_name))
+    os.rmdir(source_folder)
+    os.rmdir(destination_folder)
