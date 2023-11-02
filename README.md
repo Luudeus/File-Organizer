@@ -3,7 +3,7 @@
 
 # File Organizer
 
-**File Organizer** is a streamlined tool crafted to organize files within a directory by categorizing and moving them into folders based on their file extensions. This process is navigated by a customizable mapping detailed in a JSON configuration file.
+**File Organizer** organizes files within a directory by categorizing and moving them into folders based on their file extensions. This process is navigated by a customizable mapping detailed in a JSON configuration file.
 
 ## 🌟 Features
 
