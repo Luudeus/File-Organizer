@@ -38,8 +38,15 @@
 
 - **Determining Target Directory**: `get_directory()`
    - Accepts a command-line argument for specifying the target directory, defaulting to the current directory if not provided.
-  
-  - ... (Rest of your content remains unchanged) ...
+
+- **Loading Extension-Folder Mappings**: `load_extension_mapping(json_file)`
+   - Retrieves file extension-to-folder mapping rules from a specified JSON file.
+
+- **File Discovery**: `get_files_in_directory(directory)`
+   - Enumerates and prepares files in the target directory for organization.
+
+- **Organizing Files**: `organize_files(files, directory, extension_mapping)`
+   - Categorizes and relocates files into specified folders based on their extensions, and dynamically creates destination folders if necessary.
 
 ## 🧪 Testing
 
