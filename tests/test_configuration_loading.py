@@ -7,9 +7,10 @@ import os
 import tempfile
 import pytest
 
+
 def test_load_extension_mapping_matches_expected_data():
     # Create a temporary JSON file with predetermined mapping
-    temp_json = tempfile.NamedTemporaryFile(delete=False)
+    temp_json = tempfile.NamedTemporaryFile(mode="w+", delete=False)
     json.dump({"txt": "Text Files", "jpg": "Images", "png": "Images"}, temp_json)
     temp_json.close()
 
@@ -20,6 +21,7 @@ def test_load_extension_mapping_matches_expected_data():
     # Clean up by removing the temporary file
     os.unlink(temp_json.name)
 
+
 def test_load_extension_mapping_with_malformed_json():
     # Create a malformed JSON file to test error handling
     temp_json = tempfile.NamedTemporaryFile(delete=False)
@@ -29,4 +31,3 @@ def test_load_extension_mapping_with_malformed_json():
     # Verify that loading an invalid JSON file raises the appropriate exception
     with pytest.raises(json.JSONDecodeError):
         _ = load_extension_mapping(temp_json.name)
-
