@@ -1,7 +1,7 @@
 # File Organizer
 
-This script organizes files in a directory based on their file extensions using a predefined mapping from a JSON file.
-If needed, feel free to change the contents of `file_types.json`
+Organizes files in a directory based on their file extensions using a predefined mapping from a JSON file.
+- Feel free to change the contents of `file_types.json` if needed.
 
 ## Overview
 
@@ -42,4 +42,4 @@ If needed, feel free to change the contents of `file_types.json`
 To execute the script, it can be run from the command line with the option to specify a target directory. If no directory is given, it organizes files in the directory where the script resides.
 
 ## Usage
-`$ python project.py ['directory_path']`
+`$ python project.py ['directory_path']`.
