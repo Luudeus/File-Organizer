@@ -1,0 +1,5 @@
+# The libraries required to run the project script
+# (No external libraries are specified as the project uses only Python’s standard libraries.)
+
+# Libraries required for testing
+pytest>=6.2.5  # Framework used for running the tests
