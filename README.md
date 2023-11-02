@@ -62,7 +62,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contributions
 
-Any contributions you make are **greatly appreciated**.
+Any contributions are **greatly appreciated**.
 
 ---
 
